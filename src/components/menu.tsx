@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import { ROUTES } from "@/constants/routes"
 
 export const Menu = (
     {op1,op2,op3,op4}:
@@ -20,10 +20,10 @@ export const Menu = (
     return (
         <>
             <nav className={Style.nav}>
-                <p className={Style.p}>{op1}</p>
-                <p className={Style.p}>{op2}</p>
-                <p className={Style.p}>{op3}</p>
-                <p className={Style.p}>{op4}</p>
+                <Link className={Style.p} href={ROUTES.home}>{op1}</Link>
+                <Link className={Style.p} href={ROUTES.math}>{op2}</Link>
+                <Link className={Style.p} href={ROUTES.home}>{op3}</Link>
+                <Link className={Style.p} href={ROUTES.home}>{op4}</Link>
             </nav>
         </>
     )
