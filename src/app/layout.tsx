@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${roboto.variable} font-roboto antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${roboto.variable} font-roboto antialiased flex flex-col justify-between min-h-screen`}
       >
         <Menu op1="Page 1" op2="Page 2" op3="Page 3" op4="Page 4"/>
         {children}

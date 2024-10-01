@@ -13,7 +13,7 @@ export const Footer = (
         <>
         {
             Show ? 
-            <footer className="text-white flex justify-center align-center p-2 bg-blue-700 absolute bottom-0 w-full">
+            <footer className="text-white flex justify-center align-center p-2 bg-blue-700 static bottom-0 w-full">
                 {Name}, {Year}
             </footer> : <></>
         }

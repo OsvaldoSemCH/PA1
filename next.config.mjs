@@ -12,6 +12,14 @@ const nextConfig =
                 source: "/math",
                 destination:"/math"
             },
+            {
+                source: "/fn",
+                destination:"/functions"
+            },
+            {
+                source: "/tailwindcss",
+                destination:"/tailwindcss"
+            },
         ]
     }
 };

@@ -13,7 +13,7 @@ export const Menu = (
 {
     const Style =
     {
-        p: "bg-cyan-500 px-2 py-1 w-24 text-center text-branco rounded-lg",
+        p: "bg-cyan-500 px-2 py-1 w-24 text-center text-branco rounded-lg hover:bg-cyan-600",
         nav: "text-red-500 flex flex-row flex-wrap justify-center align-center gap-10 p-5 bg-blue-700",
     }
 
@@ -22,8 +22,8 @@ export const Menu = (
             <nav className={Style.nav}>
                 <Link className={Style.p} href={ROUTES.home}>{op1}</Link>
                 <Link className={Style.p} href={ROUTES.math}>{op2}</Link>
-                <Link className={Style.p} href={ROUTES.home}>{op3}</Link>
-                <Link className={Style.p} href={ROUTES.home}>{op4}</Link>
+                <Link className={Style.p} href={ROUTES.functions}>{op3}</Link>
+                <Link className={Style.p} href={ROUTES.tailwindcss}>{op4}</Link>
             </nav>
         </>
     )

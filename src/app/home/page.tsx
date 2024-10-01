@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="flex flex-wrap justify-center align-center w-full">
+      <div className="flex flex-wrap justify-center items-center w-full">
         <form className="bg-slate-700 p-10 m-10 rounded-lg">
           <label htmlFor="Nome" className={style.label}>Nome:</label>
           <br></br>
