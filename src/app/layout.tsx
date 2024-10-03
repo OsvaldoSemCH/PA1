@@ -32,7 +32,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${roboto.variable} font-roboto antialiased flex flex-col justify-between min-h-screen`}
       >
-        <Menu op1="Page 1" op2="Page 2" op3="Page 3" op4="Page 4"/>
+        <Menu op1="Home" op2="Math" op3="Functions" op4="Tailwind Test"/>
         {children}
         <Footer Name="Eduardo Ribeiro" Year={2024} Show={true}/>
       </body>

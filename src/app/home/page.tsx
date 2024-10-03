@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-wrap justify-center items-center w-full">
-        <form className="bg-slate-700 p-10 m-10 rounded-lg">
+        <form className="bg-slate-600 p-10 m-10 rounded-lg border-2 border-solid border-black">
           <label htmlFor="Nome" className={style.label}>Nome:</label>
           <br></br>
           <input type="text" name="Nome" placeholder="Nome" className={style.input}/>

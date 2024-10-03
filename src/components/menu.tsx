@@ -13,7 +13,7 @@ export const Menu = (
 {
     const Style =
     {
-        p: "bg-cyan-500 px-2 py-1 w-24 text-center text-branco rounded-lg hover:bg-cyan-600",
+        p: "bg-cyan-500 px-2 py-1 w-28 text-center text-branco rounded-lg hover:bg-cyan-600",
         nav: "text-red-500 flex flex-row flex-wrap justify-center align-center gap-10 p-5 bg-blue-700",
     }
 
