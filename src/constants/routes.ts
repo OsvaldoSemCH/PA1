@@ -4,4 +4,7 @@ export enum ROUTES
     math = "/math",
     functions = "/fn",
     tailwindcss = "/tailwindcss",
+    fetch = "/fetch",
+    axios = "/axios",
+    serverside = "/serverside",
 }

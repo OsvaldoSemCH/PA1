@@ -30,9 +30,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${roboto.variable} font-roboto antialiased flex flex-col justify-between min-h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} ${roboto.variable} font-roboto antialiased flex flex-col justify-between min-h-screen bg-slate-400`}
       >
-        <Menu op1="Home" op2="Math" op3="Functions" op4="Tailwind Test"/>
+        <Menu op1="Home" op2="Math" op3="Functions" op4="Tailwind Test" op5="Fetch" op6="Axios" op7="Server-side"/>
         {children}
         <Footer Name="Eduardo Ribeiro" Year={2024} Show={true}/>
       </body>

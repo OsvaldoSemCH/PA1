@@ -1,6 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig =
 {
+    images:
+    {
+        remotePatterns:
+        [
+            {protocol: "https", hostname: "rickandmortyapi.com"}
+        ]
+    },
     rewrites: () =>
     {
         return [
@@ -19,6 +26,18 @@ const nextConfig =
             {
                 source: "/tailwindcss",
                 destination:"/tailwindcss"
+            },
+            {
+                source: "/fetch",
+                destination:"/pg-fetch"
+            },
+            {
+                source: "/axios",
+                destination:"/pg-axios"
+            },
+            {
+                source: "/serverside",
+                destination:"/server-side"
             },
         ]
     }
